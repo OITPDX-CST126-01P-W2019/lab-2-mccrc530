@@ -1,21 +1,27 @@
-// W19_CST126_2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// W19_CST126_2.cpp : Bottles!
 //
 
 #include "pch.h"
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+//  Here are my steps.  Your steps are likely to be smaller.  
+//  Read from the file and print it out.
+//  Add bottle class including .h / .cpp. 
+//  change the read of the file to fill a single bottle.
+//  move the print to the bottle class and print my single bottle.
+//  made my print look nicer.  
+//  made a constant for the maximum number of bottles.  
+//  add a global array of bottles.   The globalness of this is just temporary. 
+//  added a collection struct including .h / .cpp
+//  moved my global array / size into the struct.
+//  added a "Add Bottle" function to my collection struct.  
+//  add a global variable for my collection.  
+//  moved collection variable into the main program and passed it into my file reading function.
+//  Added total value function to collection / added it to print.
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

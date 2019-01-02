@@ -1,0 +1,7 @@
+aqua flask 105 205.50
+amber bitters 95 15.00
+clear syrup 55 8.80
+olive medicine 78 4.25
+black ink 120 60.50
+teal flask 220 2.60
+cobalt	bitters 60 1.15

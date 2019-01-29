@@ -1,12 +1,13 @@
 ## CST 126 - CST126_2 Winter 19 - Bottles!
 
-**Class ID:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [replace with your id]
+**Class ID:** Rowan
 
 **Unresolved Issues:**
-+ [Replace this with any known issues.  If it works groovy say that]
++ N/A
 
 **Notes:**
-
++ Had issues attemoting to read from a const ifstream, otherwise program heavily utilizes const
++ Used pragma once in header files in place of traditional gaurds, as it serves the same purpose with less code
 
 
 ## Bottles

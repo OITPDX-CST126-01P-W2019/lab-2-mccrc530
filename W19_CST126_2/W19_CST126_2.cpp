@@ -14,8 +14,11 @@ int main()
 
 	std::cout << std::endl;
 
-	Collection openCollection{ inputFile };
-	openCollection.printCollection();
+	if (!inputFile.fail())
+	{
+		Collection openCollection{ inputFile };
+		openCollection.printCollection();
+	}
 }
 
 //  Here are my steps.  Your steps are likely to be smaller.  

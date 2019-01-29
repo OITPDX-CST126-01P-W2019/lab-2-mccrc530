@@ -1,10 +1,11 @@
 #pragma once
 #include "Bottle.h"
+#include <fstream>
 
 class Collection
 {
 public:
-	Collection(std::ifstream file);
+	Collection(std::ifstream & file);
 	double getTotalValue() const;
 	void printCollection() const;
 

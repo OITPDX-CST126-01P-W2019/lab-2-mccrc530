@@ -25,8 +25,7 @@ void Bottle::initializeBottle(std::string const & inputColor, std::string const 
 
 void Bottle::printBottle() const
 {
-	std::cout << std::setw(10);
-	std::cout << color << type << age << value << std::endl;
+	std::cout << std::setw(10) << color << std::setw(10) << type << std::setw(10) << age << std::setw(10) << value << std::endl;
 }
 
 double Bottle::getValue() const

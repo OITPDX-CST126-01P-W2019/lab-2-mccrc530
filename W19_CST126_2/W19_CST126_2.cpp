@@ -2,12 +2,20 @@
 //
 
 #include "pch.h"
-#include <iostream>
-using namespace std;
+#include "Collection.h"
 
 int main()
 {
+	std::cout << "Please enter the input file name including extension: " << std::flush;
+	
+	std::string fileName;
+	std::cin >> fileName;
+	std::ifstream inputFile{fileName};
 
+	std::cout << std::endl;
+
+	Collection openCollection{ inputFile };
+	openCollection.printCollection();
 }
 
 //  Here are my steps.  Your steps are likely to be smaller.  

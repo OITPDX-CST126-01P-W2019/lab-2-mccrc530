@@ -2,7 +2,6 @@
 #include <string>
 #include <iostream>
 #include <iomanip>
-#include <fstream>
 
 class Bottle
 {

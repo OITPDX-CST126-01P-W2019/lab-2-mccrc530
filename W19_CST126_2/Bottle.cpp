@@ -28,3 +28,8 @@ void Bottle::printBottle() const
 	std::cout << std::setw(10);
 	std::cout << color << type << age << value << std::endl;
 }
+
+double Bottle::getValue() const
+{
+	return value;
+}
